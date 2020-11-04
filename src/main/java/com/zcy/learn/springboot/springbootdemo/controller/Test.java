@@ -27,4 +27,9 @@ public class Test {
         return userService.getUserMsg("zcy");
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+
+        return "Hello Spring Boot";
+    }
 }
